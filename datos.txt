@@ -60,13 +60,25 @@ if response.status_code == 200:
 else:
     print('Got unexpected status code {}: {!r}'.format(response.status_code, response.content))
 
+super usuario local
 njordan
 123456789
 
 usuario1
 p3rs3f0n3$$$
 
-#DjangoGirlsColombia #GirlPower  #TallerdeProgramacion
-#WomenProgrammers
+super usuario en web PythonAnywhere
+p3rs3f0n3
+123456789
 
+#DjangoGirlsColombia 
+#GirlPower  
+#TallerdeProgramacion
+#WomenProgrammers
 @djangogirlsco -> instagram
+
+git 
+p3rs3f0n3
+nrodan@gmail.com
+
+pa_autoconfigure_django.py --python=3.6 https://github.com/p3rs3f0n3/my-first-blog.git
