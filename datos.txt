@@ -1,0 +1,72 @@
+
+Nada sucede hasta que algo se mueve.
+Albert Einstein
+
+C:\Users\Njordan>python --version
+Python 3.10.5
+
+C:\Users\Njordan>pip --version
+pip 22.0.4 from F:\python\lib\site-packages\pip (python 3.10)
+
+F:\python>pip list
+Package      Version
+------------ -------
+distlib      0.3.4
+filelock     3.7.1
+pip          22.1.2
+platformdirs 2.5.2
+setuptools   58.1.0
+six          1.16.0
+virtualenv   20.15.1
+
+Saber que está instalado
+pip frezee
+
+****crear entorno virtual
+D:\Desarrollos\Python\pythonGirls02072022>virtualenv -p  python3 myvenv
+
+****activar entorno virtual
+D:\Desarrollos\Python\pythonGirls02072022>.\myvenv\Scripts\activate
+
+despues de activo confirmar que esté actualizado el PIP 
+
+(myvenv) D:\Desarrollos\Python\pythonGirls02072022>python -m pip install --upgrade pip
+
+se debe crear un archivo de texto 
+
+instalación 
+PythonAnywhere
+
+https://www.pythonanywhere.com/user/p3rs3f0n3/
+p3rs3f0n3 -> usuario
+P3rs3f0n3$$$ -> contraseña
+
+Your API token
+63b7374dbf1ec431d574e624a1c1e710cb276d85
+
+import requests
+username = 'p3rs3f0n3'
+token = '63b7374dbf1ec431d574e624a1c1e710cb276d85'
+
+response = requests.get(
+    'https://www.pythonanywhere.com/api/v0/user/{username}/cpu/'.format(
+        username=username
+    ),
+    headers={'Authorization': 'Token {token}'.format(token=token)}
+)
+if response.status_code == 200:
+    print('CPU quota info:')
+    print(response.content)
+else:
+    print('Got unexpected status code {}: {!r}'.format(response.status_code, response.content))
+
+njordan
+123456789
+
+usuario1
+p3rs3f0n3$$$
+
+#DjangoGirlsColombia #GirlPower  #TallerdeProgramacion
+#WomenProgrammers
+
+@djangogirlsco -> instagram
