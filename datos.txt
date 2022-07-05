@@ -32,6 +32,18 @@ despues de activo confirmar que esté actualizado el PIP
 
 (myvenv) D:\Desarrollos\Python\pythonGirls02072022>python -m pip install --upgrade pip
 
+Crear proyecto en django -
+(myvenv) D:\Desarrollos\Python\pythonGirls02072022> django-admin.exe startproject mysite .
+
+se realizan las configuraciones se Zona horaria y demás 
+
+Para poner a correr el servidor 
+(myvenv) D:\Desarrollos\Python\pythonGirls02072022> python manage.py runserver
+
+
+
+
+
 se debe crear un archivo de texto 
 
 instalación 
