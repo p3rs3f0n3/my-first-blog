@@ -40,6 +40,26 @@ se realizan las configuraciones se Zona horaria y demás
 Para poner a correr el servidor 
 (myvenv) D:\Desarrollos\Python\pythonGirls02072022> python manage.py runserver
 
+para poder colocarle url's a los sitios se necesita crear vistas, las vistas son a las que se llama en véz de la url
+
+para cargar a git hub
+$ git status
+[...]
+$ git add --all .
+$ git status
+[...]
+$ git commit -m "Templates modificados para mostrar post desde base de datos."
+[...]
+$ git push
+
+Luego, vuelve a entrar en PythonAnywhere y ve a tu consola Bash (o inicia una nueva), y ejecuta:
+PythonAnywhere command-line
+
+$ cd <your-pythonanywhere-domain>.pythonanywhere.com
+
+cd p3rs3f0n3.pythonanywhere.com
+$ git pull
+
 
 
 
